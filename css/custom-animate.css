@@ -1,0 +1,48 @@
+@keyframes show-image {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInDown {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes slideInUp {
+  from {
+    transform: translateY(55%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes shape-2 {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes visible {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
